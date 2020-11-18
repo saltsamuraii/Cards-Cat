@@ -1,0 +1,44 @@
+@import "vars";
+
+body {
+  margin: 0;
+  padding: 0;
+  color: $primary;
+  font-family: 'Montserrat', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Page-wrapper */
+@import "page-wrapper";
+
+/* Burger */
+@import "burger";
+
+/* ScrollUpBtn */
+@import "scrollUp";
+
+/* Block */
+@import "block/header";
+@import "block/container";
+@import "block/nav";
+@import "block/contacts";
+@import "block/intro";
+@import "block/cards";
+@import "block/btn";
+@import "block/footer";
+@import "block/subscribe";
+

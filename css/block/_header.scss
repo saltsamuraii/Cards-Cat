@@ -1,0 +1,38 @@
+.header {
+  width: 100%;
+
+  margin-top: 25px;
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+
+  @media #{$notebook} {
+    margin-left: 15px;
+  }
+}
+
+.header__logo {
+  margin-right: 60px;
+
+  @media #{$tablet} {
+    display: none;
+  }
+}
+
+.header__img {
+  max-width: 100%;
+}

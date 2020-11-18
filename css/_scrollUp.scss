@@ -1,0 +1,23 @@
+.scrollUp {
+  position: fixed;
+
+  bottom: 30%;
+  right: 0;
+
+  background: none;
+  border: none;
+  cursor: pointer;
+
+  z-index: 1000;
+  visibility: visible;
+}
+
+.scrollUp__img {
+  @media #{$mobile} {
+    width: 45px;
+  }
+}
+
+//.scrollUp.active {
+//  visibility: visible;
+//}

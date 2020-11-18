@@ -1,0 +1,65 @@
+.btn {
+  width: 100%;
+  padding: 22px 55px;
+
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  color: $secondary;
+
+  border: none;
+  border-radius: 0 0 5px 5px;
+
+  cursor: pointer;
+
+  background: #6EBBD3;
+
+  transition: background .2s linear;
+
+  &:hover {
+    background: #457487;
+  }
+}
+
+.btn--black {
+  background-color: #1F2021;
+}
+
+.btn--long {
+  display: block;
+  width: auto;
+
+  margin: 70px auto;
+  padding: 24px 129px;
+
+  font-size: 14px;
+  font-weight: 400;
+  color: $primary;
+
+  border: 1px solid #cacaca;
+  border-radius: 10px;
+
+  background: transparent;
+
+  @media #{$mobile} {
+    margin: 35px auto;
+    padding: 24px 70px;
+  }
+}
+
+.btn__subscribe {
+  width: 250px;
+  padding: 22px 35px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+
+  border-radius: 10px;
+
+  @media #{$mobile} {
+    width: 150px;
+    margin: 10px auto;
+    padding: 10px 15px;
+  }
+}

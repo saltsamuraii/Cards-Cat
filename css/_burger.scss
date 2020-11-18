@@ -1,0 +1,19 @@
+.burger {
+  display: none;
+
+  @media #{$tablet} {
+    display: block;
+    position: fixed;
+    margin: 0 15px;
+
+    left: 0;
+
+    background: none;
+    border: none;
+    z-index: 9999;
+  }
+}
+
+.burger__icon {
+  width: 20px;
+}

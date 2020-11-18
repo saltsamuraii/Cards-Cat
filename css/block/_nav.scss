@@ -1,0 +1,46 @@
+
+
+.nav {
+  display: inline-block;
+
+  @media #{$tablet} {
+    display: none;
+  }
+}
+
+.nav.active {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  position: fixed;
+  text-align: right;
+
+  left: 0;
+  top: 0;
+
+  background-color: #000;
+  z-index: 1000;
+}
+
+.nav__link {
+  margin-left: 60px;
+  font-size: 18px;
+  font-weight: 400;
+
+  text-decoration: none;
+  color: $secondary;
+
+  transition: color .2s linear;
+
+  &:hover {
+    color: #36abc7;
+    text-decoration: underline #36abc7;
+  }
+
+  @media #{$tablet} {
+    margin: 0;
+    padding: 7px 10px;
+  }
+}

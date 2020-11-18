@@ -1,0 +1,32 @@
+.contacts {
+  float: right;
+  text-align: right;
+
+  @media #{$notebook} {
+    margin-right: 15px;
+  }
+}
+
+.contacts__phone {
+  margin-bottom: 10px;
+
+  font-size: 24px;
+  font-weight: 700;
+  color: $secondary;
+
+  text-decoration: none;
+
+  @media #{$notebook} {
+    font-size: 20px;
+  }
+}
+
+.contacts__text {
+  color: $secondary;
+  font-size: 18px;
+  font-weight: 400;
+
+  @media #{$notebook} {
+    font-size: 16px;
+  }
+}
